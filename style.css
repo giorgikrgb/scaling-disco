@@ -6,69 +6,82 @@
 body{
     background-color: #eef3fb;
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.header{
-    background-color: #0020ff;
-    padding: 15px 0;
-}   
-.header__inner{
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+.header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
-.header__logo{
-    color: #fff;
+.header__logo {
     font-size: 24px;
     font-weight: bold;
-}       
-.header__nav ul{
-    list-style: none;
+    color: #333;
+}
+.header__nav {
     display: flex;
     gap: 20px;
-}           
-.header__nav ul li a{
-    color: #fff;
+}
+.header__nav-link {
     text-decoration: none;
+    color: #333;
     font-size: 16px;
 }
-.content__hero{
-    text-align: center;
-    margin: 40px 0;
+.header__nav-link:hover {
+    color: #007BFF;
 }
-.content__hero-img{
+.main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.content__hero {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.content__hero-img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
 }
-
-
-.main__text{
+.main__text {
     font-size: 18px;
     line-height: 1.6;
-    color: #333;
+    color: #555;
     margin-bottom: 20px;
 }
-.main__button-link{
+.main__button-link {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0020ff;
+    background-color: #007BFF;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 16px;
 }
-.main__button-link:hover{
-    background-color: #0010aa;
+.main__button-link:hover {
+    background-color: #0056b3;
 }
-.footer{
-    background-color: #0020ff;
-    padding: 15px 0;
+.footer {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
 }
-.footer__text{
-    color: #fff;
+.footer__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
     text-align: center;
+}
+.footer__text {
     font-size: 14px;
+    color: #777;
 }
