@@ -7,7 +7,7 @@ body{
     background-color: #eef3fb;
 }
 .header {
-    background-color: #fff;
+    background-color: #0020F4;
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 } 
@@ -23,14 +23,23 @@ body{
     font-size: 24px;
     font-weight: bold;
     color: #333;
+    top: 40px;
+left: 240px;
+width: 115px;
+height: 65px;
 }
+
 .header__nav {
     display: flex;
     gap: 20px;
+    top: 27px;
+left: 240px;
+width: 1475px;
+height: 91px;
 }
 .header__nav-link {
     text-decoration: none;
-    color: #333;
+    color: hsl(0, 100%, 99%);
     font-size: 16px;
 }
 .header__nav-link:hover {
