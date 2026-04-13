@@ -280,3 +280,19 @@ footer__web{
     display: flex;
     align-items: center;
 }
+footer__last{
+    display: flex;
+    align-items: center;
+    top: 3176px;
+left: 240px;
+width: 209px;
+height: 19px;
+font:19px ;
+color: #ffffff;
+text-align: left;
+font: normal normal bold 16px/19px Helvetica Neue;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+}
