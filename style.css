@@ -38,7 +38,7 @@ body.pages {
 
 .header {
     background-color: #1f4ed8;
-    padding: 20px 0;
+    padding: 40px ;
 }
 
 .header__inner {
@@ -89,7 +89,9 @@ body.pages {
 
 
 .content__hero {
-    background-color: #1f4ed8;
+        background: linear-gradient(135deg, #0a3cff, #1f66ff);
+        color: #fff;
+        text-align: center;
     padding-bottom: 120px;
 }
 
@@ -97,7 +99,7 @@ body.pages {
     display: block;
     width: 900px;
     margin: 50px auto -80px;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 
