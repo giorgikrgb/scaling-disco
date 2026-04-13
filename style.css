@@ -136,18 +136,17 @@ body.pages {
 
 
 .footer {
-    background: linear-gradient(135deg, #1f4ed8, #1a3fc2);
+    background: #1f4ed8, #1a3fc2;
     color: #fff;
-    margin-top: 80px;
+    margin-bottom: 300px;
     padding: 80px 0 40px;
-    position: relative;
-    overflow: hidden;
+    position: fixed;
+
 }
 
 
 .footer::after {
-    content: "";
-    position: absolute;
+    position: fixed;
     top: -120px;
     right: -120px;
     width: 320px;
