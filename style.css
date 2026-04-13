@@ -275,9 +275,7 @@ body.pages {
     width: 14px;
     margin: 0 5px;
 }
-.footer__brand {
-    top: 3168px;
-left: 1558px;
-width: 121px;
-height: 35px;
+footer__web{
+    display: flex;
+    align-items: center;
 }
