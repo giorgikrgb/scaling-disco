@@ -3,11 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media (max-width: 1024px) {
 
+    .container {
+        width: 90%;
+    }
+
+    .header__inner {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .content__hero-img {
+        width: 100%;
+    }
+
+    .footer__contact,
+    .form {
+        flex: 1 1 100%;
+    }
+}
+    
+}
 body.pages {
     font-family: "Segoe UI", sans-serif;
-    background-color: #fff
-    color: #333;
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
 }
 
 
@@ -51,6 +71,7 @@ body.pages {
     text-decoration: none;
     font-size: 14px;
     opacity: 0.9;
+     border-bottom: 2px solid #100f0f;
 }
 
 .nav__link:hover {
@@ -81,7 +102,7 @@ body.pages {
 
 
 .main__inner {
-    background-color: #eaf3fb;
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
     padding: 30px;
     border-radius: 12px;
     margin-top: -60px;
